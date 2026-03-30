@@ -1,12 +1,16 @@
 # Blog API (Django REST Framework)
 
-## 🚀 Features
+## 🚀 Overview
 
-* User Authentication (JWT)
-* CRUD operations on Blog Posts
-* User-specific data filtering
+A RESTful Blog API built using Django and Django REST Framework with JWT authentication and full CRUD functionality.
+
+## ✨ Features
+
+* User authentication using JWT
+* Create, Read, Update, Delete blog posts
+* User-specific data access (each user sees only their posts)
 * Secure API endpoints
-* Django Admin Panel
+* Django admin panel for management
 
 ## 🛠 Tech Stack
 
@@ -17,7 +21,7 @@
 
 ## 🔐 Authentication
 
-* JWT-based authentication
+JWT-based authentication using SimpleJWT
 
 ## 📡 API Endpoints
 
@@ -33,11 +37,11 @@
 * PUT /api/posts/{id}/
 * DELETE /api/posts/{id}/
 
-## ⚙️ Setup
+## ⚙️ Setup Instructions
 
 ```bash
-git clone <your-repo>
-cd blog_api
+git clone <repo-link>
+cd djnagoblog
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
@@ -46,5 +50,7 @@ python manage.py runserver
 ```
 
 ## 👨‍💻 Author
+
+Pidugu Vishnuvardhan Reddy
 
 Your Name
